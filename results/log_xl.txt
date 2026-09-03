@@ -1,0 +1,10 @@
+exp1 qaoa_xl seed=0 random: u=-6.792
+exp1 qaoa_xl seed=0 joint_mf: u=-5.541
+exp1 qaoa_xl seed=0 classical_only: u=-7.546
+exp1 qaoa_xl seed=1 random: u=-4.912
+exp1 qaoa_xl seed=1 joint_mf: u=-4.171
+exp1 qaoa_xl seed=1 classical_only: u=-7.166
+exp1 qaoa_xl seed=2 random: u=-1.367
+exp1 qaoa_xl seed=2 joint_mf: u=-2.411
+exp1 qaoa_xl seed=2 classical_only: u=-7.220
+wrote 9 rows to /Users/xuanbachle/Desktop/05_Notes/2026/0-Working/TNSE-Journal/02-QPU-Aware-CoOptimization/results/raw_main_xl.csv in 333.2s

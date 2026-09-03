@@ -1,0 +1,14 @@
+{
+  "runtime_model_heldout_log_residuals": 481,
+  "sequential_qpu_clusters": 8,
+  "total_clusters": 60,
+  "nested_bootstrap_repetitions": 10000,
+  "mean_utility_contrast": 1.1759710691465892,
+  "interval_95": [
+    0.4168419615349304,
+    2.103889208634618
+  ],
+  "probability_positive": 0.9999,
+  "scope": "fixed selected configurations with runtime residual propagation",
+  "daquec_path": "data/daquec/master.parquet"
+}

@@ -1,0 +1,41 @@
+{
+  "created_unix": 1788337822.7154171,
+  "elapsed_s": 10.090389013290405,
+  "python": "3.14.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "seeds": 1,
+  "seed_offset": 120,
+  "selection_draws": 120,
+  "deployment_draws": 100,
+  "sla": 0.1,
+  "family_alpha": 0.05,
+  "finalists": 6,
+  "candidate_generation": "72 analytic candidates; top two per placement",
+  "placements": [
+    "classical",
+    "qpu_A",
+    "qpu_B"
+  ],
+  "opportunity_burst_probability": {
+    "selection": {
+      "qpu_A": 0.15,
+      "qpu_B": 0.02
+    },
+    "deployment": {
+      "qpu_A": 0.25,
+      "qpu_B": 0.05
+    }
+  },
+  "stress_burst_probability": {
+    "selection": {
+      "qpu_A": 0.4,
+      "qpu_B": 0.25
+    },
+    "deployment": {
+      "qpu_A": 0.55,
+      "qpu_B": 0.4
+    }
+  },
+  "primary_loss": "1 on service violation; otherwise normalized quality loss",
+  "evidence": "exact statevector plus controlled service model; no QPU measurement"
+}

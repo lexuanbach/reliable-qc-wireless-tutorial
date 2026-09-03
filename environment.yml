@@ -1,0 +1,14 @@
+name: capo-tutorial-2026-09
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14.6
+  - numpy=2.4.6
+  - pandas=3.0.3
+  - scipy=1.17.1
+  - scikit-learn=1.6.1
+  - matplotlib=3.10.9
+  - pyarrow=25.0.0
+  - pip
+  - pip:
+      - hyperopt==0.3.0

@@ -1,0 +1,287 @@
+== Experiment 1: deployment utility by method (fid3, held-out) ==
+                                 mean     std  count
+workload     method                                 
+qaoa         accuracy_only     -4.028  10.748     12
+             always_simulator  -2.225   0.170     12
+             classical_only    -0.309   0.461     12
+             hand_designed    -10.936   0.365     12
+             joint_bo          -0.147   0.222     12
+             joint_mf          -0.076   0.158     12
+             oracle_placement  -0.120   0.212     12
+             random            -0.126   0.183     12
+             sequential        -2.745   5.457     12
+qaoa_channel accuracy_only     -1.013   1.880     12
+             always_simulator  -2.197   0.153     12
+             classical_only    -0.007   0.009     12
+             hand_designed    -10.890   0.373     12
+             joint_bo          -0.012   0.013     12
+             joint_mf          -0.010   0.009     12
+             oracle_placement  -0.007   0.009     12
+             random            -0.008   0.009     12
+             sequential        -2.532   5.539     12
+qaoa_place   accuracy_only     -5.886  10.877     12
+             always_simulator  -2.217   0.157     12
+             classical_only    -0.064   0.043     12
+             hand_designed    -10.799   0.353     12
+             joint_bo          -0.124   0.255     12
+             joint_mf          -0.032   0.021     12
+             oracle_placement  -0.061   0.048     12
+             random            -0.069   0.050     12
+             sequential        -2.592   5.511     12
+vqc          accuracy_only     -0.778   0.994     12
+             always_simulator  -0.232   0.076     12
+             classical_only    -0.200   0.070     12
+             hand_designed     -0.401   0.109     12
+             joint_bo          -0.182   0.065     12
+             joint_mf          -0.177   0.037     12
+             oracle_placement  -0.164   0.043     12
+             random            -0.187   0.075     12
+             sequential        -0.157   0.041     12
+vqc_cancer   accuracy_only     -0.514   1.040     12
+             always_simulator  -0.069   0.018     12
+             classical_only    -0.058   0.021     12
+             hand_designed     -0.238   0.059     12
+             joint_bo          -0.055   0.015     12
+             joint_mf          -0.049   0.021     12
+             oracle_placement  -0.054   0.015     12
+             random            -0.055   0.018     12
+             sequential        -0.057   0.028     12
+
+== Paired comparisons: joint_bo minus rival (positive favors joint) ==
+joint_bo_vs_sequential              diff=+1.512 CI=[+0.554,+2.709] win=0.58 p=0.0447 p_holm=0.1340 d=+0.35
+joint_bo_vs_random                  diff=-0.015 CI=[-0.063,+0.027] win=0.45 p=0.4200 p_holm=0.4200 d=-0.09
+joint_bo_vs_accuracy_only           diff=+2.340 CI=[+0.840,+4.334] win=0.73 p=0.0000 p_holm=0.0000 d=+0.33
+joint_bo_vs_hand_designed           diff=+6.549 CI=[+5.253,+7.808] win=1.00 p=0.0000 p_holm=0.0000 d=+1.25
+joint_bo_vs_always_simulator        diff=+1.284 CI=[+1.020,+1.542] win=0.90 p=0.0000 p_holm=0.0000 d=+1.22
+joint_bo_vs_classical_only          diff=+0.024 CI=[-0.028,+0.090] win=0.55 p=0.1290 p_holm=0.2579 d=+0.10
+joint_bo_vs_joint_mf                diff=-0.035 CI=[-0.077,-0.006] win=0.37 p=0.0217 p_holm=0.0868 d=-0.25
+
+H1 (joint > sequential by margin 0.05): SUPPORTED
+
+== Placement choices (share per method) ==
+workload      method            workload      method            cfg_placement
+qaoa          accuracy_only     qaoa          accuracy_only     classical        0.17
+                                                                local_sim        0.08
+                                                                qpu_A            0.33
+                                                                qpu_B            0.17
+                                                                remote_sim       0.25
+              always_simulator  qaoa          always_simulator  local_sim        1.00
+              classical_only    qaoa          classical_only    classical        1.00
+              hand_designed     qaoa          hand_designed     qpu_A            1.00
+              joint_bo          qaoa          joint_bo          classical        0.58
+                                                                local_sim        0.08
+                                                                remote_sim       0.33
+              joint_mf          qaoa          joint_mf          classical        0.50
+                                                                local_sim        0.08
+                                                                remote_sim       0.42
+              oracle_placement  qaoa          oracle_placement  classical        0.50
+                                                                remote_sim       0.50
+              random            qaoa          random            classical        0.50
+                                                                local_sim        0.17
+                                                                remote_sim       0.33
+              sequential        qaoa          sequential        classical        0.25
+                                                                local_sim        0.17
+                                                                qpu_A            0.08
+                                                                remote_sim       0.50
+qaoa_channel  accuracy_only     qaoa_channel  accuracy_only     classical        0.08
+                                                                local_sim        0.08
+                                                                qpu_A            0.25
+                                                                qpu_B            0.08
+                                                                remote_sim       0.50
+              always_simulator  qaoa_channel  always_simulator  local_sim        1.00
+              classical_only    qaoa_channel  classical_only    classical        1.00
+              hand_designed     qaoa_channel  hand_designed     qpu_A            1.00
+              joint_bo          qaoa_channel  joint_bo          classical        0.83
+                                                                local_sim        0.08
+                                                                remote_sim       0.08
+              joint_mf          qaoa_channel  joint_mf          classical        0.75
+                                                                remote_sim       0.25
+              oracle_placement  qaoa_channel  oracle_placement  classical        0.83
+                                                                remote_sim       0.17
+              random            qaoa_channel  random            classical        0.92
+                                                                remote_sim       0.08
+              sequential        qaoa_channel  sequential        classical        0.33
+                                                                local_sim        0.25
+                                                                qpu_A            0.08
+                                                                remote_sim       0.33
+qaoa_place    accuracy_only     qaoa_place    accuracy_only     classical        0.17
+                                                                local_sim        0.08
+                                                                qpu_A            0.33
+                                                                qpu_B            0.17
+                                                                remote_sim       0.25
+              always_simulator  qaoa_place    always_simulator  local_sim        1.00
+              classical_only    qaoa_place    classical_only    classical        1.00
+              hand_designed     qaoa_place    hand_designed     qpu_A            1.00
+              joint_bo          qaoa_place    joint_bo          classical        0.58
+                                                                qpu_B            0.08
+                                                                remote_sim       0.33
+              joint_mf          qaoa_place    joint_mf          classical        0.50
+                                                                remote_sim       0.50
+              oracle_placement  qaoa_place    oracle_placement  classical        0.67
+                                                                remote_sim       0.33
+              random            qaoa_place    random            classical        0.58
+                                                                local_sim        0.08
+                                                                remote_sim       0.33
+              sequential        qaoa_place    sequential        classical        0.25
+                                                                local_sim        0.17
+                                                                qpu_A            0.08
+                                                                qpu_B            0.08
+                                                                remote_sim       0.42
+vqc           accuracy_only     vqc           accuracy_only     classical        0.42
+                                                                local_sim        0.08
+                                                                qpu_A            0.42
+                                                                remote_sim       0.08
+              always_simulator  vqc           always_simulator  local_sim        1.00
+              classical_only    vqc           classical_only    classical        1.00
+              hand_designed     vqc           hand_designed     qpu_A            1.00
+              joint_bo          vqc           joint_bo          classical        0.08
+                                                                local_sim        0.33
+                                                                qpu_B            0.17
+                                                                remote_sim       0.42
+              joint_mf          vqc           joint_mf          classical        0.58
+                                                                local_sim        0.17
+                                                                remote_sim       0.25
+              oracle_placement  vqc           oracle_placement  classical        0.33
+                                                                local_sim        0.50
+                                                                remote_sim       0.17
+              random            vqc           random            classical        0.33
+                                                                local_sim        0.42
+                                                                remote_sim       0.25
+              sequential        vqc           sequential        classical        0.08
+                                                                local_sim        0.67
+                                                                remote_sim       0.25
+vqc_cancer    accuracy_only     vqc_cancer    accuracy_only     classical        0.33
+                                                                local_sim        0.17
+                                                                qpu_A            0.25
+                                                                qpu_B            0.17
+                                                                remote_sim       0.08
+              always_simulator  vqc_cancer    always_simulator  local_sim        1.00
+              classical_only    vqc_cancer    classical_only    classical        1.00
+              hand_designed     vqc_cancer    hand_designed     qpu_A            1.00
+              joint_bo          vqc_cancer    joint_bo          classical        0.50
+                                                                local_sim        0.25
+                                                                remote_sim       0.25
+              joint_mf          vqc_cancer    joint_mf          classical        0.42
+                                                                local_sim        0.42
+                                                                remote_sim       0.17
+              oracle_placement  vqc_cancer    oracle_placement  classical        0.75
+                                                                local_sim        0.17
+                                                                remote_sim       0.08
+              random            vqc_cancer    random            classical        0.58
+                                                                local_sim        0.25
+                                                                remote_sim       0.17
+              sequential        vqc_cancer    sequential        classical        0.08
+                                                                local_sim        0.58
+                                                                qpu_B            0.08
+                                                                remote_sim       0.25
+
+== Experiment 2: utility on FULL objective after searching with a term removed ==
+ablate_no_energy     omission costs +0.072 utility CI=[-0.124,+0.329]
+ablate_no_failure    omission costs +0.110 utility CI=[-0.001,+0.324]
+ablate_no_latency    omission costs +0.232 utility CI=[+0.009,+0.581]
+ablate_no_money      omission costs +0.036 utility CI=[-0.137,+0.259]
+ablate_no_staleness  omission costs -0.019 utility CI=[-0.068,+0.011]
+
+== Experiment 3: regret vs hindsight oracle across windows ==
+                           mean    std
+workload method                       
+qaoa     cvar             0.185  0.337
+         multi_env        0.178  0.305
+         single_snapshot  0.125  0.164
+vqc      cvar             0.036  0.026
+         multi_env        0.019  0.018
+         single_snapshot  0.023  0.053
+H2 single-snapshot degradation (w0 minus w>=4 utility): +0.000 CI=[+0.000,+0.001] -> SUPPORTED
+H3 multi_env    tail-utility gain vs single-snapshot: -0.076 CI=[-0.588,+0.292]
+H3 cvar         tail-utility gain vs single-snapshot: -0.099 CI=[-0.646,+0.287]
+H3: NOT SUPPORTED
+
+== Experiment 4: backend/context transfer ==
+                                  mean    std
+workload method                              
+qaoa     fresh_full_budget      -0.198  0.208
+         warm_start_half_budget -0.022  0.018
+         zero_shot              -0.238  0.545
+vqc      fresh_full_budget      -0.186  0.050
+         warm_start_half_budget -0.184  0.026
+         zero_shot              -0.181  0.024
+warm_start_half_budget minus zero_shot: +0.107 CI=[-0.011,+0.335]
+fresh_full_budget minus zero_shot: +0.018 CI=[-0.157,+0.244]
+warm_start_half_budget minus fresh_full_budget: +0.089 CI=[+0.009,+0.195]
+
+== Experiment 5: amortization (from exp1 ledger) ==
+    workload  seed  c_search_s  du_per_use  n_break_even
+        qaoa     0      96.959      11.405         8.501
+        qaoa     1      65.994      10.584         6.235
+        qaoa     2     278.224      10.726        25.939
+        qaoa     3      88.306      10.074         8.766
+        qaoa     4     117.345      10.319        11.371
+        qaoa     5      63.039      11.216         5.621
+        qaoa     6      18.645       9.951         1.874
+        qaoa     7      30.399      10.757         2.826
+        qaoa     8     114.132      11.370        10.038
+        qaoa     9      96.591      11.355         8.506
+        qaoa    10     136.495      10.849        12.582
+        qaoa    11     143.161      10.861        13.181
+qaoa_channel     0      95.507      10.973         8.704
+qaoa_channel     1     269.313      10.674        25.231
+qaoa_channel     2      18.317      10.755         1.703
+qaoa_channel     3     432.709      10.351        41.803
+qaoa_channel     4     240.957      10.646        22.633
+qaoa_channel     5      55.298      11.733         4.713
+qaoa_channel     6     128.325      10.731        11.958
+qaoa_channel     7      27.121      10.777         2.516
+qaoa_channel     8     119.767      11.076        10.813
+qaoa_channel     9      96.774      11.361         8.518
+qaoa_channel    10      32.231      10.602         3.040
+qaoa_channel    11      72.944      10.858         6.718
+  qaoa_place     0      97.129       9.170        10.592
+  qaoa_place     1      30.952      11.153         2.775
+  qaoa_place     2      63.060      10.714         5.886
+  qaoa_place     3     145.850      10.421        13.995
+  qaoa_place     4      61.680      10.864         5.677
+  qaoa_place     5     165.629      11.111        14.907
+  qaoa_place     6      37.496      10.591         3.540
+  qaoa_place     7     174.465      10.745        16.237
+  qaoa_place     8     195.884      10.770        18.187
+  qaoa_place     9      96.757      11.284         8.575
+  qaoa_place    10      51.425      10.384         4.952
+  qaoa_place    11      20.741      10.882         1.906
+         vqc     0       8.335       0.129        64.561
+         vqc     1       6.579       0.350        18.784
+         vqc     2      12.871       0.081       157.933
+         vqc     3       4.155       0.135        30.695
+         vqc     4       7.793       0.164        47.496
+         vqc     5       7.587       0.387        19.610
+         vqc     6       5.987       0.374        16.022
+         vqc     7       5.164       0.151        34.204
+         vqc     8       9.904       0.113        87.843
+         vqc     9       4.702       0.235        19.990
+         vqc    10       2.184       0.167        13.076
+         vqc    11       8.381       0.337        24.875
+  vqc_cancer     0       7.863       0.127        61.814
+  vqc_cancer     1       6.760       0.219        30.813
+  vqc_cancer     2      10.570       0.170        62.258
+  vqc_cancer     3       4.463       0.120        37.111
+  vqc_cancer     4       8.070       0.167        48.446
+  vqc_cancer     5       8.637       0.267        32.353
+  vqc_cancer     6       5.976       0.233        25.628
+  vqc_cancer     7       4.803       0.121        39.783
+  vqc_cancer     8       7.156       0.146        49.000
+  vqc_cancer     9       1.114       0.238         4.675
+  vqc_cancer    10       2.181       0.156        13.945
+  vqc_cancer    11       3.878       0.228        17.044
+break-even exists in 60/60 cases; median N_be=13.6
+H4 (low-reuse workloads do not amortize): SUPPORTED
+
+== Experiment 6: rank correlation of cheap fidelities with deployment (fid3) ==
+qaoa fid0 vs fid3: spearman rho=+0.881
+qaoa fid1 vs fid3: spearman rho=+0.975
+qaoa fid2 vs fid3: spearman rho=+0.975
+vqc fid0 vs fid3: spearman rho=+0.692
+vqc fid1 vs fid3: spearman rho=+0.973
+vqc fid2 vs fid3: spearman rho=+0.974
+
+== Scalarization sensitivity: joint_bo vs sequential under +/-50% weights ==
+money_x0.5_energy_x0.5: diff=+1.034 CI=[+0.395,+1.827]
+money_x1.5_energy_x1.5: diff=+1.666 CI=[+0.535,+3.106]

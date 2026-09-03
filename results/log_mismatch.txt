@@ -1,0 +1,2 @@
+exp10 done
+wrote 432 rows to /Users/xuanbachle/Desktop/05_Notes/2026/0-Working/TNSE-Journal/02-QPU-Aware-CoOptimization/results/raw_main_mismatch.csv in 226.6s

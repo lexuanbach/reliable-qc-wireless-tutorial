@@ -1,0 +1,1087 @@
+{
+  "summary": [
+    {
+      "regime": "qpu_opportunity",
+      "policy": "balanced_scheduler",
+      "action_loss": 0.1418998667724214,
+      "violation": 0.04083333333333333,
+      "regret": 0.001888386230857079,
+      "qpu_rate": 0.7083333333333334,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.2916666666666667
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "capo_cert",
+      "action_loss": 0.18719702303523988,
+      "violation": 0.007916666666666667,
+      "regret": 0.04718554249367555,
+      "qpu_rate": 0.4166666666666667,
+      "certificate_rate": 0.4166666666666667,
+      "fallback_rate": 0.5833333333333334
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "classical_only",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "regret": 0.15998851945843562,
+      "qpu_rate": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "deadline_threshold",
+      "action_loss": 0.1407124938187546,
+      "violation": 0.03958333333333334,
+      "regret": 0.0007010132771903041,
+      "qpu_rate": 0.7083333333333334,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.2916666666666667
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "empirical_chance",
+      "action_loss": 0.14985281084993912,
+      "violation": 0.01625,
+      "regret": 0.009841330308374804,
+      "qpu_rate": 0.5833333333333334,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.4166666666666667
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "expected_loss",
+      "action_loss": 0.1407124938187546,
+      "violation": 0.03958333333333334,
+      "regret": 0.0007010132771903041,
+      "qpu_rate": 0.7083333333333334,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.2916666666666667
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "resource_plan",
+      "action_loss": 0.1565287719538223,
+      "violation": 0.04125,
+      "regret": 0.016517291412257988,
+      "qpu_rate": 0.6666666666666666,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.3333333333333333
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "balanced_scheduler",
+      "action_loss": 0.28050371159195164,
+      "violation": 0.11208333333333333,
+      "regret": 0.005796601308527366,
+      "qpu_rate": 0.4583333333333333,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.5416666666666666
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "capo_cert",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "regret": 0.025292889716575683,
+      "qpu_rate": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "classical_only",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "regret": 0.025292889716575683,
+      "qpu_rate": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "deadline_threshold",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "regret": 0.025292889716575683,
+      "qpu_rate": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "empirical_chance",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "regret": 0.025292889716575683,
+      "qpu_rate": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "expected_loss",
+      "action_loss": 0.2831097684462354,
+      "violation": 0.10958333333333332,
+      "regret": 0.00840265816281112,
+      "qpu_rate": 0.4166666666666667,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.5416666666666666
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "resource_plan",
+      "action_loss": 0.2991990306502424,
+      "violation": 0.03125,
+      "regret": 0.024491920366818132,
+      "qpu_rate": 0.08333333333333333,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.875
+    }
+  ],
+  "certificate_diagnostics": {
+    "certificate_rate": 0.20833333333333334,
+    "false_qualification_rate": 0.0,
+    "conditional_certified_risk": 0.019000000000000003,
+    "conditional_fallback_risk": 0.0,
+    "unconditional_completed_policy_risk": 0.003958333333333334,
+    "issued_clusters": 10,
+    "fallback_clusters": 38
+  },
+  "clustered_contrasts": {
+    "expected_loss": {
+      "action_loss_reduction": [
+        -0.03168738038512493,
+        -0.05187899545988893,
+        -0.014203723019262683
+      ],
+      "violation_reduction": [
+        0.070625,
+        0.04354166666666667,
+        0.09875
+      ],
+      "regret_reduction": [
+        -0.0316873803851249,
+        -0.052113450540821886,
+        -0.014262701625125425
+      ]
+    },
+    "empirical_chance": {
+      "action_loss_reduction": [
+        -0.018672106092650378,
+        -0.03734421218530076,
+        -0.0037805190442944518
+      ],
+      "violation_reduction": [
+        0.004166666666666667,
+        0.0,
+        0.009375000000000001
+      ],
+      "regret_reduction": [
+        -0.01867210609265037,
+        -0.03734421218530074,
+        -0.00378051904429445
+      ]
+    },
+    "deadline_threshold": {
+      "action_loss_reduction": [
+        -0.023242264608242635,
+        -0.041884895036858036,
+        -0.007701075542397834
+      ],
+      "violation_reduction": [
+        0.015833333333333335,
+        0.004166666666666667,
+        0.02979166666666667
+      ],
+      "regret_reduction": [
+        -0.02324226460824262,
+        -0.042101289783932606,
+        -0.007560522817224379
+      ]
+    },
+    "resource_plan": {
+      "action_loss_reduction": [
+        -0.015734610215587565,
+        -0.037021048219678186,
+        0.005971635063537353
+      ],
+      "violation_reduction": [
+        0.03229166666666666,
+        0.012708333333333335,
+        0.05541666666666667
+      ],
+      "regret_reduction": [
+        -0.015734610215587554,
+        -0.03729619609995666,
+        0.005544763401493174
+      ]
+    },
+    "balanced_scheduler": {
+      "action_loss_reduction": [
+        -0.03239672233543342,
+        -0.052048539570196534,
+        -0.015513833134197238
+      ],
+      "violation_reduction": [
+        0.0725,
+        0.04499479166666667,
+        0.10145833333333334
+      ],
+      "regret_reduction": [
+        -0.03239672233543339,
+        -0.05229618890504818,
+        -0.01545307724029293
+      ]
+    },
+    "classical_only": {
+      "action_loss_reduction": [
+        0.05640148848238005,
+        0.02925758615624936,
+        0.08381985204399103
+      ],
+      "violation_reduction": [
+        -0.003958333333333334,
+        -0.007500000000000001,
+        -0.0010416666666666667
+      ],
+      "regret_reduction": [
+        0.05640148848238003,
+        0.029051949379976773,
+        0.08435894903963932
+      ]
+    }
+  },
+  "randomization_p_expected_loss_violation": 6.999930000699993e-05,
+  "leave_one_cluster_out_expected_loss_violation_range": [
+    0.06574468085106383,
+    0.07212765957446808
+  ],
+  "worked_example": {
+    "regime": "qpu_opportunity",
+    "seed": 120,
+    "failures": 4,
+    "draws": 120,
+    "upper_bound": 0.0957026454391548,
+    "eta": 0.1,
+    "family_confidence": 0.95,
+    "finalists": 6,
+    "per_finalist_alpha": 0.008333333333333333,
+    "zero_failure_minimum_draws": 46
+  },
+  "drift_summary": [
+    {
+      "regime": "qpu_opportunity",
+      "policy": "capo_expire_fallback",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "capo_rolling_recert",
+      "action_loss": 0.2814828817242874,
+      "violation": 0.00375,
+      "certificate_rate": 0.08333333333333333,
+      "fallback_rate": 0.9166666666666666
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "capo_static",
+      "action_loss": 0.19888806251876823,
+      "violation": 0.01916666666666667,
+      "certificate_rate": 0.4166666666666667,
+      "fallback_rate": 0.5833333333333334
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "classical_only",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "qpu_opportunity",
+      "policy": "empirical_rolling",
+      "action_loss": 0.17547826255243668,
+      "violation": 0.029583333333333336,
+      "certificate_rate": 0.0,
+      "fallback_rate": 0.4583333333333333
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "capo_expire_fallback",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "capo_rolling_recert",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "capo_static",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "classical_only",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    },
+    {
+      "regime": "queue_stress",
+      "policy": "empirical_rolling",
+      "action_loss": 0.3,
+      "violation": 0.0,
+      "certificate_rate": 0.0,
+      "fallback_rate": 1.0
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.17450061146779935
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.259917278134466
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.3441476358136246
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.17450061146779935
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.259917278134466
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.3441476358136246
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.17450061146779935
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.14583333333333334,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.259917278134466
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.3441476358136246
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.22916666666666666,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.16076329280652152
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.25,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.23886032089609158
+    },
+    {
+      "confirmation_draws": 40,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.25,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.3138603208960916
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.1958625797232615
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.29377924638992814
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0625,
+      "violation": 0.0,
+      "action_loss": 0.38932329508157865
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.1958625797232615
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.29377924638992814
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0625,
+      "violation": 0.0,
+      "action_loss": 0.38932329508157865
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.125,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.17863989222972354
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.125,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.2661398922297235
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.0022916666666666667,
+      "action_loss": 0.3515006150755304
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.003541666666666667,
+      "action_loss": 0.17117054630249787
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.003541666666666667,
+      "action_loss": 0.2545038796358312
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.20833333333333334,
+      "violation": 0.003541666666666667,
+      "action_loss": 0.33569793581497137
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.20833333333333334,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.1644318448509533
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.20833333333333334,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.24359851151761994
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.22916666666666666,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.32169553960719005
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.25,
+      "violation": 0.006041666666666667,
+      "action_loss": 0.1586799594731882
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.25,
+      "violation": 0.006041666666666667,
+      "action_loss": 0.23367995947318818
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.2708333333333333,
+      "violation": 0.006041666666666667,
+      "action_loss": 0.3076103208960916
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.15409307209163625
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.22492640542496956
+    },
+    {
+      "confirmation_draws": 80,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.3125,
+      "violation": 0.008125,
+      "action_loss": 0.29469010018120634
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.20000000000000004
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.3
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0,
+      "violation": 0.0,
+      "action_loss": 0.4000000000000001
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.1958625797232615
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.020833333333333332,
+      "violation": 0.0,
+      "action_loss": 0.29377924638992814
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.0625,
+      "violation": 0.0,
+      "action_loss": 0.38932329508157865
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.041666666666666664,
+      "violation": 0.0,
+      "action_loss": 0.19223533538028745
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.041666666666666664,
+      "violation": 0.0,
+      "action_loss": 0.28806866871362075
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.05,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.08333333333333333,
+      "violation": 0.0,
+      "action_loss": 0.3817627248927609
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.125,
+      "violation": 0.0016666666666666668,
+      "action_loss": 0.17815985723444597
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.125,
+      "violation": 0.0016666666666666668,
+      "action_loss": 0.26565985723444596
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.16666666666666666,
+      "violation": 0.0016666666666666668,
+      "action_loss": 0.3510205800802528
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.20833333333333334,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.1644318448509533
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.20833333333333334,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.24359851151761994
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.22916666666666666,
+      "violation": 0.003958333333333334,
+      "action_loss": 0.32169553960719005
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.25,
+      "violation": 0.005,
+      "action_loss": 0.1578735911359307
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.25,
+      "violation": 0.005,
+      "action_loss": 0.23287359113593067
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.1,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.2708333333333333,
+      "violation": 0.005,
+      "action_loss": 0.30680395255883414
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.15409307209163625
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.22492640542496956
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.01,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.3125,
+      "violation": 0.008125,
+      "action_loss": 0.29469010018120634
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.15409307209163625
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.22492640542496956
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.05,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.3125,
+      "violation": 0.008125,
+      "action_loss": 0.29469010018120634
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.2,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.15409307209163625
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.3,
+      "certificate_rate": 0.2916666666666667,
+      "violation": 0.008125,
+      "action_loss": 0.22492640542496956
+    },
+    {
+      "confirmation_draws": 120,
+      "eta": 0.15,
+      "alpha": 0.1,
+      "fallback_loss": 0.4,
+      "certificate_rate": 0.3125,
+      "violation": 0.008125,
+      "action_loss": 0.29469010018120634
+    }
+  ]
+}

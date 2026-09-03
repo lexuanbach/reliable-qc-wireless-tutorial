@@ -1,0 +1,11 @@
+regime,policy,action_loss,violation,certificate_rate,fallback_rate
+qpu_opportunity,capo_expire_fallback,0.3,0.0,0.0,1.0
+qpu_opportunity,capo_rolling_recert,0.2814828817242874,0.00375,0.08333333333333333,0.9166666666666666
+qpu_opportunity,capo_static,0.19888806251876823,0.01916666666666667,0.4166666666666667,0.5833333333333334
+qpu_opportunity,classical_only,0.3,0.0,0.0,1.0
+qpu_opportunity,empirical_rolling,0.17547826255243668,0.029583333333333336,0.0,0.4583333333333333
+queue_stress,capo_expire_fallback,0.3,0.0,0.0,1.0
+queue_stress,capo_rolling_recert,0.3,0.0,0.0,1.0
+queue_stress,capo_static,0.3,0.0,0.0,1.0
+queue_stress,classical_only,0.3,0.0,0.0,1.0
+queue_stress,empirical_rolling,0.3,0.0,0.0,1.0

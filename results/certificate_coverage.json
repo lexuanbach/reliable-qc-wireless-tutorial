@@ -1,0 +1,274 @@
+{
+  "all_just_above_target": {
+    "probabilities": [
+      0.105,
+      0.105,
+      0.105,
+      0.105,
+      0.105,
+      0.105
+    ],
+    "draws": 120,
+    "family_alpha": 0.05,
+    "repetitions": 100000,
+    "simultaneous_coverage": 0.97928,
+    "familywise_miscoverage": 0.02071999999999996,
+    "false_certification_probability": 0.02072,
+    "mean_qualified_candidates": 0.02081,
+    "any_qualification_probability": 0.02072
+  },
+  "mixed_safe_and_unsafe": {
+    "probabilities": [
+      0.03,
+      0.05,
+      0.08,
+      0.12,
+      0.15,
+      0.2
+    ],
+    "draws": 120,
+    "family_alpha": 0.05,
+    "repetitions": 100000,
+    "simultaneous_coverage": 0.97749,
+    "familywise_miscoverage": 0.02251000000000003,
+    "false_certification_probability": 0.00085,
+    "mean_qualified_candidates": 1.02019,
+    "any_qualification_probability": 0.79681
+  },
+  "all_safe": {
+    "probabilities": [
+      0.01,
+      0.03,
+      0.05,
+      0.06,
+      0.08,
+      0.1
+    ],
+    "draws": 120,
+    "family_alpha": 0.05,
+    "repetitions": 100000,
+    "simultaneous_coverage": 0.98471,
+    "familywise_miscoverage": 0.015290000000000026,
+    "false_certification_probability": 0.0,
+    "mean_qualified_candidates": 2.1625,
+    "any_qualification_probability": 0.99861
+  },
+  "sample_size_sensitivity": [
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 40,
+      "family_alpha": 0.01,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.99736,
+      "familywise_miscoverage": 0.0026399999999999757,
+      "false_certification_probability": 0.0,
+      "mean_qualified_candidates": 0.0,
+      "any_qualification_probability": 0.0
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 40,
+      "family_alpha": 0.05,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.98471,
+      "familywise_miscoverage": 0.015290000000000026,
+      "false_certification_probability": 0.0,
+      "mean_qualified_candidates": 0.0,
+      "any_qualification_probability": 0.0
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 40,
+      "family_alpha": 0.1,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.97333,
+      "familywise_miscoverage": 0.02666999999999997,
+      "false_certification_probability": 0.00757,
+      "mean_qualified_candidates": 0.46671,
+      "any_qualification_probability": 0.4122
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 80,
+      "family_alpha": 0.01,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.99638,
+      "familywise_miscoverage": 0.0036199999999999566,
+      "false_certification_probability": 6e-05,
+      "mean_qualified_candidates": 0.10504,
+      "any_qualification_probability": 0.10353
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 80,
+      "family_alpha": 0.05,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.98688,
+      "familywise_miscoverage": 0.01312000000000002,
+      "false_certification_probability": 0.0004,
+      "mean_qualified_candidates": 0.40121,
+      "any_qualification_probability": 0.37172
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 80,
+      "family_alpha": 0.1,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.93757,
+      "familywise_miscoverage": 0.062429999999999986,
+      "false_certification_probability": 0.00293,
+      "mean_qualified_candidates": 0.84605,
+      "any_qualification_probability": 0.68318
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 120,
+      "family_alpha": 0.01,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.99566,
+      "familywise_miscoverage": 0.0043400000000000105,
+      "false_certification_probability": 0.00016,
+      "mean_qualified_candidates": 0.66863,
+      "any_qualification_probability": 0.58746
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 120,
+      "family_alpha": 0.05,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.97736,
+      "familywise_miscoverage": 0.022639999999999993,
+      "false_certification_probability": 0.00087,
+      "mean_qualified_candidates": 1.01556,
+      "any_qualification_probability": 0.79425
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 120,
+      "family_alpha": 0.1,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.9449,
+      "familywise_miscoverage": 0.05510000000000004,
+      "false_certification_probability": 0.00283,
+      "mean_qualified_candidates": 1.37016,
+      "any_qualification_probability": 0.92249
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 240,
+      "family_alpha": 0.01,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.9937,
+      "familywise_miscoverage": 0.006299999999999972,
+      "false_certification_probability": 1e-05,
+      "mean_qualified_candidates": 1.24675,
+      "any_qualification_probability": 0.92827
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 240,
+      "family_alpha": 0.05,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.96542,
+      "familywise_miscoverage": 0.034580000000000055,
+      "false_certification_probability": 0.00036,
+      "mean_qualified_candidates": 1.75035,
+      "any_qualification_probability": 0.99587
+    },
+    {
+      "probabilities": [
+        0.03,
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "draws": 240,
+      "family_alpha": 0.1,
+      "repetitions": 100000,
+      "simultaneous_coverage": 0.93263,
+      "familywise_miscoverage": 0.06737000000000004,
+      "false_certification_probability": 0.00113,
+      "mean_qualified_candidates": 1.90259,
+      "any_qualification_probability": 0.99887
+    }
+  ]
+}

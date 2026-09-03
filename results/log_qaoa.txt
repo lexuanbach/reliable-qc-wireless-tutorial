@@ -1,0 +1,101 @@
+exp1 qaoa seed=0 random: u=-0.069
+exp1 qaoa seed=0 sequential: u=-0.082
+exp1 qaoa seed=0 joint_bo: u=-0.104
+exp1 qaoa seed=0 joint_mf: u=-0.011
+exp1 qaoa seed=0 accuracy_only: u=-1.477
+exp1 qaoa seed=0 hand_designed: u=-11.509
+exp1 qaoa seed=0 always_simulator: u=-2.081
+exp1 qaoa seed=0 classical_only: u=-0.069
+exp1 qaoa seed=1 random: u=-0.055
+exp1 qaoa seed=1 sequential: u=-6.773
+exp1 qaoa seed=1 joint_bo: u=-0.162
+exp1 qaoa seed=1 joint_mf: u=-0.055
+exp1 qaoa seed=1 accuracy_only: u=-0.143
+exp1 qaoa seed=1 hand_designed: u=-10.746
+exp1 qaoa seed=1 always_simulator: u=-2.090
+exp1 qaoa seed=1 classical_only: u=-0.055
+exp1 qaoa seed=2 random: u=-0.010
+exp1 qaoa seed=2 sequential: u=-18.846
+exp1 qaoa seed=2 joint_bo: u=-0.025
+exp1 qaoa seed=2 joint_mf: u=-0.010
+exp1 qaoa seed=2 accuracy_only: u=-3.414
+exp1 qaoa seed=2 hand_designed: u=-10.751
+exp1 qaoa seed=2 always_simulator: u=-2.127
+exp1 qaoa seed=2 classical_only: u=-0.025
+exp1 qaoa seed=3 random: u=-0.016
+exp1 qaoa seed=3 sequential: u=-0.011
+exp1 qaoa seed=3 joint_bo: u=-0.570
+exp1 qaoa seed=3 joint_mf: u=-0.570
+exp1 qaoa seed=3 accuracy_only: u=-0.570
+exp1 qaoa seed=3 hand_designed: u=-10.644
+exp1 qaoa seed=3 always_simulator: u=-1.907
+exp1 qaoa seed=3 classical_only: u=-0.570
+exp1 qaoa seed=4 random: u=-0.431
+exp1 qaoa seed=4 sequential: u=-0.056
+exp1 qaoa seed=4 joint_bo: u=-0.056
+exp1 qaoa seed=4 joint_mf: u=-0.056
+exp1 qaoa seed=4 accuracy_only: u=-38.015
+exp1 qaoa seed=4 hand_designed: u=-10.376
+exp1 qaoa seed=4 always_simulator: u=-2.221
+exp1 qaoa seed=4 classical_only: u=-0.056
+exp1 qaoa seed=5 random: u=-0.125
+exp1 qaoa seed=5 sequential: u=-2.333
+exp1 qaoa seed=5 joint_bo: u=-0.010
+exp1 qaoa seed=5 joint_mf: u=-0.012
+exp1 qaoa seed=5 accuracy_only: u=-1.350
+exp1 qaoa seed=5 hand_designed: u=-11.226
+exp1 qaoa seed=5 always_simulator: u=-2.170
+exp1 qaoa seed=5 classical_only: u=-1.547
+exp2 qaoa seed=0 full: u=-0.069
+exp2 qaoa seed=0 no_latency: u=-0.676
+exp2 qaoa seed=0 no_energy: u=-0.069
+exp2 qaoa seed=0 no_money: u=-0.012
+exp2 qaoa seed=0 no_failure: u=-0.069
+exp2 qaoa seed=0 no_staleness: u=-0.023
+exp2 qaoa seed=1 full: u=-0.012
+exp2 qaoa seed=1 no_latency: u=-0.055
+exp2 qaoa seed=1 no_energy: u=-0.014
+exp2 qaoa seed=1 no_money: u=-0.010
+exp2 qaoa seed=1 no_failure: u=-0.055
+exp2 qaoa seed=1 no_staleness: u=-0.012
+exp2 qaoa seed=2 full: u=-0.025
+exp2 qaoa seed=2 no_latency: u=-0.025
+exp2 qaoa seed=2 no_energy: u=-0.025
+exp2 qaoa seed=2 no_money: u=-0.025
+exp2 qaoa seed=2 no_failure: u=-0.013
+exp2 qaoa seed=2 no_staleness: u=-0.025
+exp2 qaoa seed=3 full: u=-0.570
+exp2 qaoa seed=3 no_latency: u=-0.570
+exp2 qaoa seed=3 no_energy: u=-0.016
+exp2 qaoa seed=3 no_money: u=-0.040
+exp2 qaoa seed=3 no_failure: u=-0.570
+exp2 qaoa seed=3 no_staleness: u=-0.570
+exp2 qaoa seed=4 full: u=-0.040
+exp2 qaoa seed=4 no_latency: u=-0.056
+exp2 qaoa seed=4 no_energy: u=-0.056
+exp2 qaoa seed=4 no_money: u=-0.056
+exp2 qaoa seed=4 no_failure: u=-0.056
+exp2 qaoa seed=4 no_staleness: u=-0.056
+exp2 qaoa seed=5 full: u=-0.277
+exp2 qaoa seed=5 no_latency: u=-2.321
+exp2 qaoa seed=5 no_energy: u=-1.547
+exp2 qaoa seed=5 no_money: u=-1.348
+exp2 qaoa seed=5 no_failure: u=-1.547
+exp2 qaoa seed=5 no_staleness: u=-0.012
+exp3 qaoa seed=0 done
+exp3 qaoa seed=1 done
+exp3 qaoa seed=2 done
+exp3 qaoa seed=3 done
+exp3 qaoa seed=4 done
+exp3 qaoa seed=5 done
+exp4 qaoa seed=0 done
+exp4 qaoa seed=1 done
+exp4 qaoa seed=2 done
+exp4 qaoa seed=3 done
+exp4 qaoa seed=4 done
+exp4 qaoa seed=5 done
+exp6 qaoa seed=0 done
+exp6 qaoa seed=1 done
+exp6 qaoa seed=2 done
+exp6 qaoa seed=3 done
+wrote 366 rows to /Users/xuanbachle/Desktop/05_Notes/2026/0-Working/TNSE-Journal/02-QPU-Aware-CoOptimization/results/raw_main_qaoa.csv in 97.7s

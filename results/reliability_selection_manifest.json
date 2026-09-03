@@ -1,0 +1,51 @@
+{
+  "created_unix": 1788420847.997129,
+  "elapsed_s": 100.18823504447937,
+  "python": "3.14.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "seeds_per_regime": 24,
+  "seed_offset": 120,
+  "selection_draws": 120,
+  "deployment_draws": 100,
+  "rolling_draws": 120,
+  "sla": 0.1,
+  "family_alpha": 0.05,
+  "finalists": 6,
+  "simultaneous_method": "Bonferroni one-sided Clopper-Pearson",
+  "candidate_generation": "72 analytic candidates, top two per placement",
+  "placements": [
+    "classical",
+    "qpu_A",
+    "qpu_B"
+  ],
+  "fallback": {
+    "candidate_id": -1,
+    "label": "validated_local_fallback",
+    "quality_loss": 0.3,
+    "delay_s": 0.002,
+    "service_violation": 0.0
+  },
+  "stable_burst_probability": {
+    "qpu_opportunity": {
+      "qpu_A": 0.15,
+      "qpu_B": 0.02
+    },
+    "queue_stress": {
+      "qpu_A": 0.4,
+      "qpu_B": 0.25
+    }
+  },
+  "shifted_burst_probability": {
+    "qpu_opportunity": {
+      "qpu_A": 0.25,
+      "qpu_B": 0.05
+    },
+    "queue_stress": {
+      "qpu_A": 0.55,
+      "qpu_B": 0.4
+    }
+  },
+  "primary_loss": "1 on service violation, otherwise normalized quality loss",
+  "matched_rights": "same finalists, records, actions, abstention, and classical fallback",
+  "evidence": "exact statevector plus controlled service model, no QPU measurement"
+}

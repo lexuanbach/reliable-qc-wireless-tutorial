@@ -1,0 +1,9 @@
+drift_strength,policy,action_loss,service_violation
+0.0,expire_fallback,0.3,0.0
+0.0,static_certificate,0.24430353022844212,0.004166666666666667
+0.5,expire_fallback,0.3,0.0
+0.5,static_certificate,0.24760949927065204,0.0075
+1.0,expire_fallback,0.3,0.0
+1.0,static_certificate,0.2502873413405436,0.010208333333333333
+1.5,expire_fallback,0.3,0.0
+1.5,static_certificate,0.2525577488459223,0.012499999999999999

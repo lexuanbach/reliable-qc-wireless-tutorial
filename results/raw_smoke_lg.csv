@@ -1,0 +1,3 @@
+experiment,workload,seed,method,budget,search_cost_units,search_cost_modeled_s,wall_s,cfg_p,cfg_opt_iters,cfg_warm_start,cfg_shots,cfg_mitigation,cfg_compile_level,cfg_placement,quality_loss,delay_s,deadline_miss,infeasible,energy_j,money,cost_scalar,realized_fail,utility,utility_p10
+exp1,qaoa_large,0,random,8.0,21.0,185.11828277516562,11.578167667030357,3,160,0,8192,1,2,classical,0.49684399968503384,0.0056391147372778505,0.0,0.8,0.045112917898222804,0.0,0.005909792244667186,0.0,-4.497480824680768,-6.0260583713337965
+exp1,qaoa_large,0,joint_mf,8.0,21.0,227.8895690285686,5.07003729196731,1,20,0,2048,0,0,remote_sim,0.0,1.0545920643104538,0.3,0.0,27.62144,1.1048576e-06,1.2203759471904538,0.0,-0.8264135244477906,-2.244851328497453

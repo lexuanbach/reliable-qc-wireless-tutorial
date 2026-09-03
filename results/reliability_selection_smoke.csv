@@ -1,0 +1,6 @@
+workload,seed,regime,policy,candidate,placement,selection_risk,selection_risk_lcb,selection_risk_ucb,certified,action_loss,quality_loss,service_violation,delay_s,oracle_candidate,oracle_placement,oracle_action_loss,regret,qpu_selected,qpu_beneficial
+qaoa_large,120,qpu_opportunity,capo_cert,1,classical,0.3,0.04446356608405993,0.7118011740430628,False,0.5236293198155962,0.24343899910924754,0.5,0.005264583509415388,4,qpu_B,0.016861513994660005,0.5067678058209363,False,True
+qaoa_large,120,qpu_opportunity,expected_loss,4,qpu_B,0.0,0.0,0.38044213374586455,False,0.016861513994660005,0.016861513994660005,0.0,0.2109645805781663,4,qpu_B,0.016861513994660005,0.0,True,True
+qaoa_large,120,qpu_opportunity,empirical_chance,4,qpu_B,0.0,0.0,0.38044213374586455,False,0.016861513994660005,0.016861513994660005,0.0,0.2109645805781663,4,qpu_B,0.016861513994660005,0.0,True,True
+qaoa_large,120,qpu_opportunity,deadline_threshold,4,qpu_B,0.0,0.0,0.38044213374586455,False,0.016861513994660005,0.016861513994660005,0.0,0.2109645805781663,4,qpu_B,0.016861513994660005,0.0,True,True
+qaoa_large,120,qpu_opportunity,classical_only,1,classical,0.3,0.04446356608405993,0.7118011740430628,False,0.5236293198155962,0.24343899910924754,0.5,0.005264583509415388,4,qpu_B,0.016861513994660005,0.5067678058209363,False,True

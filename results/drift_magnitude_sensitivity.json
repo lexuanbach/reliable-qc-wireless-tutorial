@@ -1,0 +1,60 @@
+{
+  "evidence": "paired controlled service-model sensitivity",
+  "drift_strengths": [
+    0.0,
+    0.5,
+    1.0,
+    1.5
+  ],
+  "deployment_draws_per_cluster": 100,
+  "summary": [
+    {
+      "drift_strength": 0.0,
+      "policy": "expire_fallback",
+      "action_loss": 0.3,
+      "service_violation": 0.0
+    },
+    {
+      "drift_strength": 0.0,
+      "policy": "static_certificate",
+      "action_loss": 0.24430353022844212,
+      "service_violation": 0.004166666666666667
+    },
+    {
+      "drift_strength": 0.5,
+      "policy": "expire_fallback",
+      "action_loss": 0.3,
+      "service_violation": 0.0
+    },
+    {
+      "drift_strength": 0.5,
+      "policy": "static_certificate",
+      "action_loss": 0.24760949927065204,
+      "service_violation": 0.0075
+    },
+    {
+      "drift_strength": 1.0,
+      "policy": "expire_fallback",
+      "action_loss": 0.3,
+      "service_violation": 0.0
+    },
+    {
+      "drift_strength": 1.0,
+      "policy": "static_certificate",
+      "action_loss": 0.2502873413405436,
+      "service_violation": 0.010208333333333333
+    },
+    {
+      "drift_strength": 1.5,
+      "policy": "expire_fallback",
+      "action_loss": 0.3,
+      "service_violation": 0.0
+    },
+    {
+      "drift_strength": 1.5,
+      "policy": "static_certificate",
+      "action_loss": 0.2525577488459223,
+      "service_violation": 0.012499999999999999
+    }
+  ]
+}

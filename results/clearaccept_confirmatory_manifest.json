@@ -1,0 +1,30 @@
+{
+  "created_unix": 1788276119.966233,
+  "elapsed_s": 674.6568949222565,
+  "python": "3.14.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "workloads": [
+    "qaoa",
+    "qaoa_channel",
+    "qaoa_place",
+    "vqc",
+    "vqc_cancer"
+  ],
+  "methods": [
+    "sequential",
+    "capo_joint_only",
+    "random",
+    "capo_mf_no_rescore",
+    "joint_mf",
+    "capo_chance",
+    "device_aware_sequential",
+    "fixed_design_scheduler",
+    "classical_only"
+  ],
+  "seeds": 12,
+  "seed_offset": 100,
+  "budget": 30.0,
+  "deployment_draws": 40,
+  "analysis_status": "fresh confirmatory seeds, simulator-first; no QPU measurement"
+}

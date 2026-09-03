@@ -1,0 +1,151 @@
+{
+  "evidence_label": "public-trace-calibrated simulation; no CAPO hardware execution",
+  "quantumqueue": {
+    "url": "https://github.com/rgokulsm/QuantumQueue",
+    "commit": "a614f9167035eee579e981f709af56fa64171ea9",
+    "rows": 2404,
+    "files": [
+      {
+        "file": "test_andrew_new_nobackend.csv",
+        "sha256": "783b10d3cc86dfd5e8bdffcb89d81c6eb41fd4e3aca6814bd606844109dc4881",
+        "rows": 215
+      },
+      {
+        "file": "test_chong_new_nobackend.csv",
+        "sha256": "406b072324d8f4b0d4c7d6ce439847597e35f50635d8b171b8d6300f7a1874a0",
+        "rows": 1990
+      },
+      {
+        "file": "test_gokul_new2.csv",
+        "sha256": "b0099c1c7a307644b6ee9e9ad55ecff74f79f538672eb074f5fdbc7045e6a862",
+        "rows": 1680
+      },
+      {
+        "file": "test_gokul_new_nobackend.csv",
+        "sha256": "6c304b4bbea1fba98332262b5021e1bd51b2cb3afd5e93c8ca6c4e90e4c76b45",
+        "rows": 2
+      },
+      {
+        "file": "test_hele.csv",
+        "sha256": "19e69c3d0398ac9631d3a40615f33fcf7b4f12086316ad0d219ac69f410faf17",
+        "rows": 392
+      },
+      {
+        "file": "test_hele_new_nobackend.csv",
+        "sha256": "6794c88bd4fd9e25feff32ac83ff847cac45ddce744d22a37080c7801d9cfebb",
+        "rows": 42
+      },
+      {
+        "file": "test_kate_new2.csv",
+        "sha256": "9223eab4786a2012d1360e53c707caa2e40b7d0a6af104cbcc54aa7803dff1f1",
+        "rows": 384
+      },
+      {
+        "file": "test_kate_new_nobackend.csv",
+        "sha256": "4f9883b88a25cf08be815657f9cae9bf62a8adb4baabd181c2009fde3d4abc57",
+        "rows": 35
+      },
+      {
+        "file": "test_kate_pre_new_nobackend.csv",
+        "sha256": "3812d0df3aa7fe60574b8c549943abdb757bb3fbc8694539164a0c161625f2c4",
+        "rows": 2
+      },
+      {
+        "file": "test_prakash_new_nobackend.csv",
+        "sha256": "e026b5663083f21031d301b67e087842a6892993eefe2bf42d8342333e893f8f",
+        "rows": 177
+      },
+      {
+        "file": "test_pranav_com.csv",
+        "sha256": "808f8a606de8be0a2082178448601da38f9cf8ebeb28cf6180e148b98c6242fe",
+        "rows": 62
+      },
+      {
+        "file": "test_pranav_id_f29_new_nobackend.csv",
+        "sha256": "c9ec5f1bade991eeafb5daa265c7dea30efc88e57dcb85eaddf0a8c657706311",
+        "rows": 351
+      },
+      {
+        "file": "test_pranav_ornl2.csv",
+        "sha256": "97165eafb72d9cdcfe77dc088d5f43752b7b3db8233e64ddb5ec0027abdbf133",
+        "rows": 169
+      },
+      {
+        "file": "test_pranav_super1.csv",
+        "sha256": "8680cb3c17a1fc794203ed93e32e0cb56ee55528a3597808a0ca84fd13b15b3e",
+        "rows": 99
+      },
+      {
+        "file": "test_teague_new_nobackend.csv",
+        "sha256": "4d07c48e02403f22bb336930cc7955c2375e46b5a2bdaca1163ab30c4a227936",
+        "rows": 104
+      }
+    ],
+    "minutes_to_seconds_evidence": "capture-the-data-share.ipynb divides total_seconds by 60",
+    "queue_minutes": {
+      "q10": 0.00900499999999998,
+      "q25": 0.9710833333333334,
+      "q50": 26.509258333333335,
+      "q75": 643.59795,
+      "q90": 1199.737845,
+      "q95": 1346.8326266666666,
+      "q99": 1920.0836738333335
+    },
+    "fraction_over_120_minutes": 0.3764559068219634,
+    "fraction_over_1440_minutes": 0.03868552412645591,
+    "backend_median_split_s": 213.46800000000002
+  },
+  "runtime_model": {
+    "test_rows": 481,
+    "r2_log_runtime": 0.5053676472024387,
+    "mae_runtime_s": 71.6933838019324,
+    "median_absolute_error_s": 28.455306427300016
+  },
+  "daquec": {
+    "url": "https://zenodo.org/records/18045662",
+    "master_sha256": "0ef25a760717c82b52fc0291d0e5854f1185b75cce47fd5097b9a31237192789",
+    "backend_statistics": {
+      "ibm_brisbane": {
+        "snapshots": 42,
+        "mean_ecr_error": 0.007942974104499569,
+        "sd_ecr_error": 0.000355585518143652,
+        "minimum": 0.007165880654423107,
+        "maximum": 0.008718190572687788,
+        "log_increment_sd": 0.06046923398363363
+      },
+      "ibm_kyoto": {
+        "snapshots": 42,
+        "mean_ecr_error": 0.006996565132814254,
+        "sd_ecr_error": 0.00031639880133468645,
+        "minimum": 0.006395867528975767,
+        "maximum": 0.00758157948865043,
+        "log_increment_sd": 0.06896396562554812
+      },
+      "ibm_osaka": {
+        "snapshots": 42,
+        "mean_ecr_error": 0.009046477383521614,
+        "sd_ecr_error": 0.00047306585481102616,
+        "minimum": 0.007982158802725355,
+        "maximum": 0.009951748902520013,
+        "log_increment_sd": 0.0746191459746658
+      }
+    },
+    "mapping": {
+      "qpu_A_error": "ibm_kyoto",
+      "qpu_B_error": "ibm_osaka"
+    }
+  },
+  "replay": {
+    "methods": [
+      "joint_mf",
+      "capo_chance",
+      "sequential",
+      "device_aware_sequential",
+      "fixed_design_scheduler",
+      "classical_only"
+    ],
+    "draws_per_selected_configuration": 20,
+    "rows": 360,
+    "fidelity": 2
+  }
+}

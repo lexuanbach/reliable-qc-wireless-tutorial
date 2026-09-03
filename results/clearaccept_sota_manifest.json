@@ -1,0 +1,23 @@
+{
+  "created_unix": 1788357052.909222,
+  "elapsed_s": 50.328683853149414,
+  "python": "3.14.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "workloads": [
+    "qaoa",
+    "qaoa_channel",
+    "qaoa_place",
+    "vqc",
+    "vqc_cancer"
+  ],
+  "methods": [
+    "tpe",
+    "successive_halving"
+  ],
+  "seeds": 12,
+  "seed_offset": 100,
+  "budget": 30.0,
+  "deployment_draws": 40,
+  "analysis_status": "fresh confirmatory seeds, simulator-first; no QPU measurement"
+}

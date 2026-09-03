@@ -1,0 +1,23 @@
+{
+  "created_unix": 1788235111.38269,
+  "elapsed_s": 88.33450388908386,
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "seeds": 1,
+  "budget": 8.0,
+  "workloads": [
+    "vqc"
+  ],
+  "experiments": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+  ],
+  "quantum_execution": "exact statevector + modeled depolarizing/shot noise",
+  "deployment_fidelity": "held-out perturbed noisy simulation (fid3); no hardware",
+  "cost_figures": "modeled, not measured"
+}

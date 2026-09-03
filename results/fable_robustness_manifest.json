@@ -1,0 +1,32 @@
+{
+  "script_sha256": "e9084924c6e6329a751dcb9c2047a30e219735de598271c97113db4d7b2a1581",
+  "winsor": {
+    "rows": 150,
+    "fresh_seeds": [
+      210,
+      215
+    ],
+    "budget": 20,
+    "deployment_draws": 20
+  },
+  "mitigation": {
+    "rows": 270,
+    "selected_config_seeds": [
+      100,
+      101
+    ],
+    "deployment_draws": 10,
+    "interpretation": "fixed-selection deployment sensitivity, not re-optimization"
+  },
+  "digits": {
+    "rows": 48,
+    "fresh_seeds": [
+      300,
+      307
+    ],
+    "budget": 30,
+    "deployment_draws": 20,
+    "task": "sklearn digits 3-versus-8"
+  },
+  "evidence": "exact statevector plus explicitly modeled noise; no QPU execution"
+}

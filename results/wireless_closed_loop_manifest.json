@@ -1,0 +1,95 @@
+{
+  "evidence": "controlled dynamic channel-assignment simulation with exact-statevector QAOA candidates",
+  "not_evidence": "not a radio testbed and not physical-QPU execution",
+  "access_points": 8,
+  "channels": 2,
+  "clusters": 48,
+  "deployment_windows_per_cluster": 40,
+  "confirmation_draws": 40,
+  "eta": 0.2,
+  "family_alpha": 0.05,
+  "candidate_paths": [
+    "local_greedy",
+    "local_exact",
+    "qaoa_local",
+    "qaoa_remote"
+  ],
+  "policies": [
+    "capo_cert",
+    "expected_loss",
+    "empirical_chance",
+    "rolling",
+    "local_greedy",
+    "hindsight_oracle"
+  ],
+  "contrasts": {
+    "expected_loss": {
+      "action_loss": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_backlog": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dropped_demand": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "empirical_chance": {
+      "action_loss": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_backlog": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dropped_demand": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rolling": {
+      "action_loss": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_backlog": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dropped_demand": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "local_greedy": {
+      "action_loss": [
+        0.013218995373406608,
+        0.009834385566543855,
+        0.016888846668971176
+      ],
+      "mean_backlog": [
+        0.019780852295144733,
+        -0.003860830328890053,
+        0.044341911211824826
+      ],
+      "dropped_demand": [
+        3.240025785813639,
+        2.2698938428512463,
+        4.268591374322901
+      ]
+    }
+  }
+}

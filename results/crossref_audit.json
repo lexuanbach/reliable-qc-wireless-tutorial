@@ -1,0 +1,608 @@
+[
+ {
+  "key": "farhi2014qaoa",
+  "bib_title": "A Quantum Approximate Optimization Algorithm",
+  "cr_title": "The Quantum Approximate Optimization Algorithm and the Sherrington-Kirkpatrick Model at Infinite Size",
+  "cr_year": 2022,
+  "cr_doi": "10.22331/q-2022-07-07-759",
+  "cr_venue": "Quantum",
+  "cr_vol": "6",
+  "cr_page": "759",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Edward Farhi",
+   "Jeffrey Goldstone",
+   "Sam Gutmann",
+   "Leo Zhou"
+  ]
+ },
+ {
+  "key": "preskill2018nisq",
+  "bib_title": "Quantum Computing in the NISQ era and beyond",
+  "cr_title": "Quantum Computing in the NISQ era and beyond",
+  "cr_year": 2018,
+  "cr_doi": "10.22331/q-2018-08-06-79",
+  "cr_venue": "Quantum",
+  "cr_vol": "2",
+  "cr_page": "79",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "John Preskill"
+  ]
+ },
+ {
+  "key": "peruzzo2014vqe",
+  "bib_title": "A variational eigenvalue solver on a photonic quantum processor",
+  "cr_title": "A variational eigenvalue solver on a photonic quantum processor",
+  "cr_year": 2014,
+  "cr_doi": "10.1038/ncomms5213",
+  "cr_venue": "Nature Communications",
+  "cr_vol": "5",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Alberto Peruzzo",
+   "Jarrod McClean",
+   "Peter Shadbolt",
+   "Man-Hong Yung",
+   "Xiao-Qi Zhou",
+   "Peter J. Love",
+   "Al\u00e1n Aspuru-Guzik",
+   "Jeremy L. O\u2019Brien"
+  ]
+ },
+ {
+  "key": "cerezo2021variational",
+  "bib_title": "Variational quantum algorithms",
+  "cr_title": "Can Error Mitigation Improve Trainability of Noisy Variational Quantum Algorithms?",
+  "cr_year": 2024,
+  "cr_doi": "10.22331/q-2024-03-14-1287",
+  "cr_venue": "Quantum",
+  "cr_vol": "8",
+  "cr_page": "1287",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Samson Wang",
+   "Piotr Czarnik",
+   "Andrew Arrasmith",
+   "M. Cerezo",
+   "Lukasz Cincio",
+   "Patrick J. Coles"
+  ]
+ },
+ {
+  "key": "temme2017zne",
+  "bib_title": "Error Mitigation for Short-Depth Quantum Circuits",
+  "cr_title": "Error Mitigation for Short-Depth Quantum Circuits",
+  "cr_year": 2017,
+  "cr_doi": "10.1103/physrevlett.119.180509",
+  "cr_venue": "Physical Review Letters",
+  "cr_vol": "119",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Kristan Temme",
+   "Sergey Bravyi",
+   "Jay M. Gambetta"
+  ]
+ },
+ {
+  "key": "murali2019noise",
+  "bib_title": "Noise-Adaptive Compiler Mappings for Noisy Intermediate-Scale Quantum Computers",
+  "cr_title": "Noise-Adaptive Compiler Mappings for Noisy Intermediate-Scale Quantum Computers",
+  "cr_year": 2019,
+  "cr_doi": "10.1145/3297858.3304075",
+  "cr_venue": "Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "cr_vol": "",
+  "cr_page": "1015-1029",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Prakash Murali",
+   "Jonathan M. Baker",
+   "Ali Javadi-Abhari",
+   "Frederic T. Chong",
+   "Margaret Martonosi"
+  ]
+ },
+ {
+  "key": "tannu2019not",
+  "bib_title": "Not All Qubits Are Created Equal: A Case for Variability-Aware Policies for NISQ-Era Quantum Computers",
+  "cr_title": "Not All Qubits Are Created Equal",
+  "cr_year": 2019,
+  "cr_doi": "10.1145/3297858.3304007",
+  "cr_venue": "Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "cr_vol": "",
+  "cr_page": "987-999",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Swamit S. Tannu",
+   "Moinuddin K. Qureshi"
+  ]
+ },
+ {
+  "key": "wang2022quantumnas",
+  "bib_title": "QuantumNAS: Noise-Adaptive Search for Robust Quantum Circuits",
+  "cr_title": "QuantumNAS: Noise-Adaptive Search for Robust Quantum Circuits",
+  "cr_year": 2022,
+  "cr_doi": "10.1109/hpca53966.2022.00057",
+  "cr_venue": "2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+  "cr_vol": "",
+  "cr_page": "692-708",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Hanrui Wang",
+   "Yongshan Ding",
+   "Jiaqi Gu",
+   "Yujun Lin",
+   "David Z. Pan",
+   "Frederic T. Chong",
+   "Song Han"
+  ]
+ },
+ {
+  "key": "du2022qas",
+  "bib_title": "Quantum circuit architecture search for variational quantum algorithms",
+  "cr_title": "Quantum circuit architecture search for variational quantum algorithms",
+  "cr_year": 2022,
+  "cr_doi": "10.1038/s41534-022-00570-y",
+  "cr_venue": "npj Quantum Information",
+  "cr_vol": "8",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Yuxuan Du",
+   "Tao Huang",
+   "Shan You",
+   "Min-Hsiu Hsieh",
+   "Dacheng Tao"
+  ]
+ },
+ {
+  "key": "ravi2021cloud",
+  "bib_title": "Quantum Computing in the Cloud: Analyzing job and machine characteristics",
+  "cr_title": "Quantum Computing in the Cloud: Analyzing job and machine characteristics",
+  "cr_year": 2021,
+  "cr_doi": "10.1109/iiswc53511.2021.00015",
+  "cr_venue": "2021 IEEE International Symposium on Workload Characterization (IISWC)",
+  "cr_vol": "",
+  "cr_page": "39-50",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Gokul Subramanian Ravi",
+   "Kaitlin N. Smith",
+   "Pranav Gokhale",
+   "Frederic T. Chong"
+  ]
+ },
+ {
+  "key": "karalekas2020cloud",
+  "bib_title": "A quantum-classical cloud platform optimized for variational hybrid algorithms",
+  "cr_title": "A quantum-classical cloud platform optimized for variational hybrid algorithms",
+  "cr_year": 2020,
+  "cr_doi": "10.1088/2058-9565/ab7559",
+  "cr_venue": "Quantum Science and Technology",
+  "cr_vol": "5",
+  "cr_page": "024003",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Peter J Karalekas",
+   "Nikolas A Tezak",
+   "Eric C Peterson",
+   "Colm A Ryan",
+   "Marcus P da Silva",
+   "Robert S Smith"
+  ]
+ },
+ {
+  "key": "egger2021warmstart",
+  "bib_title": "Warm-starting quantum optimization",
+  "cr_title": "Warm-starting quantum optimization",
+  "cr_year": 2021,
+  "cr_doi": "10.22331/q-2021-06-17-479",
+  "cr_venue": "Quantum",
+  "cr_vol": "5",
+  "cr_page": "479",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Daniel J. Egger",
+   "Jakub Mare\u010dek",
+   "Stefan Woerner"
+  ]
+ },
+ {
+  "key": "brandao2018concentration",
+  "bib_title": "For Fixed Control Parameters the Quantum Approximate Optimization Algorithm's Objective Function Value Concentrates for Typical Instances",
+  "cr_title": "A review on Quantum Approximate Optimization Algorithm and its variants",
+  "cr_year": 2024,
+  "cr_doi": "10.1016/j.physrep.2024.03.002",
+  "cr_venue": "Physics Reports",
+  "cr_vol": "1068",
+  "cr_page": "1-66",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Kostas Blekos",
+   "Dean Brand",
+   "Andrea Ceschini",
+   "Chiao-Hui Chou",
+   "Rui-Hao Li",
+   "Komal Pandya",
+   "Alessandro Summer"
+  ]
+ },
+ {
+  "key": "shaydulin2019multistart",
+  "bib_title": "Multistart Methods for Quantum Approximate Optimization",
+  "cr_title": "Multistart Methods for Quantum Approximate optimization",
+  "cr_year": 2019,
+  "cr_doi": "10.1109/hpec.2019.8916288",
+  "cr_venue": "2019 IEEE High Performance Extreme Computing Conference (HPEC)",
+  "cr_vol": "",
+  "cr_page": "1-8",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Ruslan Shaydulin",
+   "Ilya Safro",
+   "Jeffrey Larson"
+  ]
+ },
+ {
+  "key": "snoek2012practical",
+  "bib_title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+  "cr_title": "Bias-Awareness for Zero-Shot Learning the Seen and Unseen",
+  "cr_year": 2020,
+  "cr_doi": "10.5244/c.34.73",
+  "cr_venue": "Proceedings of the British Machine Vision Conference 2020",
+  "cr_vol": "",
+  "cr_page": "",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "William Thong",
+   "Cees Snoek"
+  ]
+ },
+ {
+  "key": "li2018hyperband",
+  "bib_title": "Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization",
+  "cr_title": "An efficient modified Hyperband and trust-region-based mode-pursuing sampling hybrid method for hyperparameter optimization",
+  "cr_year": 2021,
+  "cr_doi": "10.1080/0305215x.2020.1862823",
+  "cr_venue": "Engineering Optimization",
+  "cr_vol": "54",
+  "cr_page": "252-268",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Jingliang Lin",
+   "Haiyan Li",
+   "Yunbao Huang",
+   "Jinghuan Chen",
+   "Pengcheng Huang",
+   "Zeying Huang"
+  ]
+ },
+ {
+  "key": "falkner2018bohb",
+  "bib_title": "BOHB: Robust and Efficient Hyperparameter Optimization at Scale",
+  "cr_title": "Fast Bayesian hyperparameter optimization on large datasets",
+  "cr_year": 2017,
+  "cr_doi": "10.1214/17-ejs1335si",
+  "cr_venue": "Electronic Journal of Statistics",
+  "cr_vol": "11",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Aaron Klein",
+   "Stefan Falkner",
+   "Simon Bartels",
+   "Philipp Hennig",
+   "Frank Hutter"
+  ]
+ },
+ {
+  "key": "kandasamy2017multifidelity",
+  "bib_title": "Multi-fidelity Bayesian Optimisation with Continuous Approximations",
+  "cr_title": "Multi-fidelity Gaussian Process Bandit Optimisation",
+  "cr_year": 2019,
+  "cr_doi": "10.1613/jair.1.11288",
+  "cr_venue": "Journal of Artificial Intelligence Research",
+  "cr_vol": "66",
+  "cr_page": "151-196",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Kirthevasan Kandasamy",
+   "Gautam Dasarathy",
+   "Junier Oliva",
+   "Jeff Schneider",
+   "Barnab\u00e1s P\u00f3czos"
+  ]
+ },
+ {
+  "key": "rockafellar2000cvar",
+  "bib_title": "Optimization of conditional value-at-risk",
+  "cr_title": "Conditional Value-at-Risk: Optimization Approach",
+  "cr_year": 2001,
+  "cr_doi": "10.1007/978-1-4757-6594-6_17",
+  "cr_venue": "Applied Optimization",
+  "cr_vol": "",
+  "cr_page": "411-435",
+  "cr_type": "book-chapter",
+  "cr_authors": [
+   "Stanislav Uryasev",
+   "R. Tyrrell Rockafellar"
+  ]
+ },
+ {
+  "key": "brown2007cvar",
+  "bib_title": "Large deviations bounds for estimating conditional value-at-risk",
+  "cr_title": "Large deviations bounds for estimating conditional value-at-risk",
+  "cr_year": 2007,
+  "cr_doi": "10.1016/j.orl.2007.01.001",
+  "cr_venue": "Operations Research Letters",
+  "cr_vol": "35",
+  "cr_page": "722-730",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "David B. Brown"
+  ]
+ },
+ {
+  "key": "mao2017mec",
+  "bib_title": "A Survey on Mobile Edge Computing: The Communication Perspective",
+  "cr_title": "A Survey on Mobile Edge Computing: The Communication Perspective",
+  "cr_year": 2017,
+  "cr_doi": "10.1109/comst.2017.2745201",
+  "cr_venue": "IEEE Communications Surveys &amp; Tutorials",
+  "cr_vol": "19",
+  "cr_page": "2322-2358",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Yuyi Mao",
+   "Changsheng You",
+   "Jun Zhang",
+   "Kaibin Huang",
+   "Khaled B. Letaief"
+  ]
+ },
+ {
+  "key": "havlicek2019supervised",
+  "bib_title": "Supervised learning with quantum-enhanced feature spaces",
+  "cr_title": "Road friction estimation for connected vehicles using supervised machine learning",
+  "cr_year": 2017,
+  "cr_doi": "10.1109/ivs.2017.7995885",
+  "cr_venue": "2017 IEEE Intelligent Vehicles Symposium (IV)",
+  "cr_vol": "",
+  "cr_page": "1262-1267",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Ghazaleh Panahandeh",
+   "Erik Ek",
+   "Nasser Mohammadiha"
+  ]
+ },
+ {
+  "key": "benedetti2019pqc",
+  "bib_title": "Parameterized quantum circuits as machine learning models",
+  "cr_title": "Parameterized quantum circuits as machine learning models",
+  "cr_year": 2019,
+  "cr_doi": "10.1088/2058-9565/ab4eb5",
+  "cr_venue": "Quantum Science and Technology",
+  "cr_vol": "4",
+  "cr_page": "043001",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Marcello Benedetti",
+   "Erika Lloyd",
+   "Stefan Sack",
+   "Mattia Fiorentini"
+  ]
+ },
+ {
+  "key": "mcclean2018barren",
+  "bib_title": "Barren plateaus in quantum neural network training landscapes",
+  "cr_title": "Barren plateaus in quantum neural network training landscapes",
+  "cr_year": 2018,
+  "cr_doi": "10.1038/s41467-018-07090-4",
+  "cr_venue": "Nature Communications",
+  "cr_vol": "9",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Jarrod R. McClean",
+   "Sergio Boixo",
+   "Vadim N. Smelyanskiy",
+   "Ryan Babbush",
+   "Hartmut Neven"
+  ]
+ },
+ {
+  "key": "spall1998spsa",
+  "bib_title": "Implementation of the simultaneous perturbation algorithm for stochastic optimization",
+  "cr_title": "Implementation of the simultaneous perturbation algorithm for stochastic optimization",
+  "cr_year": 1998,
+  "cr_doi": "10.1109/7.705889",
+  "cr_venue": "IEEE Transactions on Aerospace and Electronic Systems",
+  "cr_vol": "34",
+  "cr_page": "817-823",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "J.C. Spall"
+  ]
+ },
+ {
+  "key": "powell1994cobyla",
+  "bib_title": "A direct search optimization method that models the objective and constraint functions by linear interpolation",
+  "cr_title": "A Direct Search Optimization Method That Models the Objective and Constraint Functions by Linear Interpolation",
+  "cr_year": 1994,
+  "cr_doi": "10.1007/978-94-015-8330-5_4",
+  "cr_venue": "Advances in Optimization and Numerical Analysis",
+  "cr_vol": "",
+  "cr_page": "51-67",
+  "cr_type": "book-chapter",
+  "cr_authors": [
+   "M. J. D. Powell"
+  ]
+ },
+ {
+  "key": "kim2023utility",
+  "bib_title": "Evidence for the utility of quantum computing before fault tolerance",
+  "cr_title": "Evidence for the utility of quantum computing before fault tolerance",
+  "cr_year": 2023,
+  "cr_doi": "10.1038/s41586-023-06096-3",
+  "cr_venue": "Nature",
+  "cr_vol": "618",
+  "cr_page": "500-505",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Youngseok Kim",
+   "Andrew Eddins",
+   "Sajant Anand",
+   "Ken Xuan Wei",
+   "Ewout van den Berg",
+   "Sami Rosenblatt",
+   "Hasan Nayfeh",
+   "Yantao Wu",
+   "Michael Zaletel",
+   "Kristan Temme",
+   "Abhinav Kandala"
+  ]
+ },
+ {
+  "key": "nawaz2019qml6g",
+  "bib_title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+  "cr_title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+  "cr_year": 2019,
+  "cr_doi": "10.1109/access.2019.2909490",
+  "cr_venue": "IEEE Access",
+  "cr_vol": "7",
+  "cr_page": "46317-46350",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Syed Junaid Nawaz",
+   "Shree Krishna Sharma",
+   "Shurjeel Wyne",
+   "Mohammad N. Patwary",
+   "Md. Asaduzzaman"
+  ]
+ },
+ {
+  "key": "guerreschi2019qaoa",
+  "bib_title": "QAOA for Max-Cut requires hundreds of qubits for quantum speed-up",
+  "cr_title": "QAOA for Max-Cut requires hundreds of qubits for quantum speed-up",
+  "cr_year": 2019,
+  "cr_doi": "10.1038/s41598-019-43176-9",
+  "cr_venue": "Scientific Reports",
+  "cr_vol": "9",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "G. G. Guerreschi",
+   "A. Y. Matsuura"
+  ]
+ },
+ {
+  "key": "kubler2020adaptive",
+  "bib_title": "An Adaptive Optimizer for Measurement-Frugal Variational Algorithms",
+  "cr_title": "Evaluation of a catalytic reduction technique for the measurement of total reactive odd-nitrogen NO y in the atmosphere",
+  "cr_year": 1985,
+  "cr_doi": "10.1007/bf00053871",
+  "cr_venue": "Journal of Atmospheric Chemistry",
+  "cr_vol": "3",
+  "cr_page": "435-468",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "D. W. Fahey",
+   "C. S. Eubank",
+   "G. H\ufffdbler",
+   "F. C. Fehsenfeld"
+  ]
+ },
+ {
+  "key": "barkoutsos2020cvar",
+  "bib_title": "Improving Variational Quantum Optimization using CVaR",
+  "cr_title": "Improving Variational Quantum Optimization using CVaR",
+  "cr_year": 2020,
+  "cr_doi": "10.22331/q-2020-04-20-256",
+  "cr_venue": "Quantum",
+  "cr_vol": "4",
+  "cr_page": "256",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Panagiotis Kl. Barkoutsos",
+   "Giacomo Nannicini",
+   "Anton Robert",
+   "Ivano Tavernelli",
+   "Stefan Woerner"
+  ]
+ },
+ {
+  "key": "peng2020cutting",
+  "bib_title": "Simulating Large Quantum Circuits on a Small Quantum Computer",
+  "cr_title": "Simulating Large Quantum Circuits on a Small Quantum Computer",
+  "cr_year": 2020,
+  "cr_doi": "10.1103/physrevlett.125.150504",
+  "cr_venue": "Physical Review Letters",
+  "cr_vol": "125",
+  "cr_page": "",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Tianyi Peng",
+   "Aram W. Harrow",
+   "Maris Ozols",
+   "Xiaodi Wu"
+  ]
+ },
+ {
+  "key": "hutter2019automl",
+  "bib_title": "Automated Machine Learning: Methods, Systems, Challenges",
+  "cr_title": "Hyperparameter Optimization",
+  "cr_year": 2019,
+  "cr_doi": "10.1007/978-3-030-05318-5_1",
+  "cr_venue": "The Springer Series on Challenges in Machine Learning",
+  "cr_vol": "",
+  "cr_page": "3-33",
+  "cr_type": "book-chapter",
+  "cr_authors": [
+   "Matthias Feurer",
+   "Frank Hutter"
+  ]
+ },
+ {
+  "key": "rahimian2019dro",
+  "bib_title": "Distributionally robust optimization: A review",
+  "cr_title": "Frameworks and Results in Distributionally Robust Optimization",
+  "cr_year": 2022,
+  "cr_doi": "10.5802/ojmo.15",
+  "cr_venue": "Open Journal of Mathematical Optimization",
+  "cr_vol": "3",
+  "cr_page": "1-85",
+  "cr_type": "journal-article",
+  "cr_authors": [
+   "Hamed Rahimian",
+   "Sanjay Mehrotra"
+  ]
+ },
+ {
+  "key": "arute2019supremacy",
+  "bib_title": "Quantum supremacy using a programmable superconducting processor",
+  "cr_title": "34.2 A 28-nm Bulk-CMOS IC for Full Control of a Superconducting Quantum Processor Unit-Cell",
+  "cr_year": 2023,
+  "cr_doi": "10.1109/isscc42615.2023.10067292",
+  "cr_venue": "2023 IEEE International Solid- State Circuits Conference (ISSCC)",
+  "cr_vol": "",
+  "cr_page": "506-508",
+  "cr_type": "proceedings-article",
+  "cr_authors": [
+   "Juhwan Yoo",
+   "Zijun Chen",
+   "Frank Arute",
+   "Shirin Montazeri",
+   "Marco Szalay",
+   "Catherine Erickson",
+   "Evan Jeffrey",
+   "Reza Fatemi",
+   "Marissa Giustina",
+   "Markus Ansmann",
+   "Erik Lucero",
+   "Julian Kelly"
+  ]
+ }
+]
